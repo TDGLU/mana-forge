@@ -1,5 +1,73 @@
+body {
+  background-color: rgb(139, 139, 139);
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
+}
+
+/* Navbar  */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 1rem 2.75rem;
+  background-color: rgb(35, 167, 255);
+  justify-content: space-between;
+
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: rgb(0, 0, 150) !important;
+  text-decoration: underline;
+}
+
+.home-btn {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Search section  */
+
+.search-section {
+  background-color: #707070;
+  padding: 1rem;
+}
+
+.search-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-interact {
+  min-width: 450px;
+  margin: 1rem auto;
+  padding: .25rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  color: white;
+  background: rgb(145, 145, 145);
 }
 
 .App-logo {
