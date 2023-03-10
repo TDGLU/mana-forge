@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-/* Navbar  */
+/* Navbar */
 
 .navbar {
   display: flex;
@@ -41,18 +41,19 @@ body {
   text-decoration: none;
 }
 
-/* Search section  */
+/* Search section */
 
 .search-section {
-  background-color: #707070;
   padding: 1rem;
+  background-color: #707070;
 }
 
 .search-section form {
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .form-interact {
