@@ -24,8 +24,6 @@ https://github.com/TDGLU <br>
 https://github.com/sparra2398 <br>
 https://github.com/BOO720 <br>
 
-## Description
-
 ## Installation
 
 To install, clone this repository then run 'npm i'

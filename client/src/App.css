@@ -1,6 +1,6 @@
 body {
   background-color: rgb(139, 139, 139);
-  overflow: hidden;
+  /* overflow: hidden;  */
 }
 
 .App {
@@ -75,6 +75,35 @@ h3 {
   cursor: pointer;
   color: white;
   background: rgb(145, 145, 145);
+}
+
+/* Card  */
+
+.card-container {
+  padding: 1rem;
+  min-height: 475px;
+}
+
+.prop-card {
+  color: white;
+  border-radius: 5px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto !important;
+  background: rgb(53, 53, 53);
+  width: 250px;
+  height: auto;
+  padding: .5rem;
+  flex-direction: column;
+}
+
+.prop-card img {
+  width: 100%;
+}
+
+.prop-card p {
+  margin: .5rem auto;
 }
 
 .App-logo {
