@@ -2,6 +2,12 @@ import React, { useState } from 'react'
 
 function SearchBar(props) {
 
+
+     async function updateDisplayCardName(name) {
+        props.setCardName(name)
+       console.log(props)
+     }
+
     return (
         <div className='search-section'>
             <form>
@@ -11,7 +17,7 @@ function SearchBar(props) {
                     id="card-name" 
                     name="card-name" 
                     value={props.cardName}
-                    onChange={e => props.setCardName(e.target.value)}
+                    onChange={(e) => updateDisplayCardName(e.target.value) }
                     />
                 <button className='form-interact search-btn' type="button" onClick={(e) => props.searchForCard(e)}>Search</button>
             </form>
