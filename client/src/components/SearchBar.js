@@ -10,7 +10,7 @@ function SearchBar(props) {
     return (
         <div className='search-section'>
             <form>
-                <label for="card-name" placeholder='Enter card name'>Lookup Card:</label>
+                <label className="card-name" placeholder='Enter card name'>Lookup Card:</label>
                 <input className='form-interact'
                     type="text" 
                     id="card-name" 

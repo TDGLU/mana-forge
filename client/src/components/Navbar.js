@@ -12,9 +12,6 @@ function Navbar() {
       <Link className='home-btn' to ='/'>Home</Link>
         <ul>
           <li>
-            <Link to ='/featured'>Featured</Link>
-          </li>
-          <li>
             <Link to='/profile'>Profile</Link>
           </li>
           <li>
