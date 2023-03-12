@@ -11,12 +11,17 @@ import Featured from './pages/Featured';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import Home from './pages/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: '/',
+        element: <Home />
+      },
       {
         path: 'featured',
         element: <Featured />
