@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
   return (
     <div className='loginSignUpContainer'>
-      <div className='loginSignUpTitle'>Login</div>
+      <h3 className='loginSignUpTitle'>Login</h3>
       <input className='usernameInput' placeholder='Username'></input>
       <input className='passwordInput' placeholder='Password'></input>
       <button className='signUpLoginButton'>Login</button>

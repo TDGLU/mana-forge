@@ -1,9 +1,12 @@
-import React from 'react'
-import Featured from './Featured'
+import React, { useState } from 'react'
+import SearchBar from '../components/SearchBar'
 
-function Home() {
+function Home(props) {
   return (
-    <Featured></Featured>
+    <>
+      <h3>Home</h3>
+      <SearchBar cardName={props.cardName} setCardName={props.setCardName} searchForCard={props.searchForCard} />
+    </>
   )
 }
 
