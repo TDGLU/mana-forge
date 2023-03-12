@@ -5,7 +5,6 @@ function SearchBar(props) {
 
      async function updateDisplayCardName(name) {
         props.setCardName(name)
-       console.log(props)
      }
 
     return (
