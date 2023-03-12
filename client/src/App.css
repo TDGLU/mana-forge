@@ -79,13 +79,18 @@ h3 {
 
 /* Card  */
 
+.card-container {
+  padding: 1rem;
+  min-height: 475px;
+}
+
 .prop-card {
   color: white;
   border-radius: 5px !important;
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto !important;
   background: rgb(53, 53, 53);
   width: 250px;
   height: auto;
@@ -95,6 +100,10 @@ h3 {
 
 .prop-card img {
   width: 100%;
+}
+
+.prop-card p {
+  margin: .5rem auto;
 }
 
 .App-logo {
