@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function CardContainer(props) {
   return (
     <div>
@@ -8,5 +9,7 @@ function CardContainer(props) {
     </div>
   )
 }
+
+console.log()
 
 export default CardContainer

@@ -8,7 +8,6 @@ function Login() {
       <input className='passwordInput' placeholder='Password'></input>
       <button className='signUpLoginButton'>Login</button>
     </div>
-
   )
 }
 
