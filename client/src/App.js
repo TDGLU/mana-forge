@@ -7,7 +7,6 @@ import './pages/SignUpLogin.css';
 import CardContainer from './components/CardContainer';
 import Navbar from './components/Navbar';
 import Profile from './pages/Profile';
-import Featured from './pages/Featured';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 
@@ -18,7 +17,6 @@ function App() {
     <div>
     <Navbar>
       <Route path='/' element={<Home />} />
-      <Route path='/about' element={<Featured/>} />
       <Route path='/projects' element={<Profile/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/signup' element={<SignUp/>} />

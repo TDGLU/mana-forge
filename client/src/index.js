@@ -7,7 +7,6 @@ import {
 } from 'react-router-dom'
 import './index.css';
 import App from './App';
-import Featured from './pages/Featured';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
-      },
-      {
-        path: 'featured',
-        element: <Featured />
       },
       {
         path: 'profile',

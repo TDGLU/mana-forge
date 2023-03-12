@@ -1,13 +1,15 @@
-
+/* Container setup */
 
 .loginSignUpContainer {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   padding: 1rem;
 }
+
+/* Input Styling */
 
 .usernameInput, 
 .passwordInput, 
@@ -21,6 +23,8 @@
   color: black;
   border-radius: 7px;
 }
+
+/* Button Styling */
 
 .signUpLoginButton {
   border-radius: 7px;

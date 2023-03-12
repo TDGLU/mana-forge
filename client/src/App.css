@@ -28,8 +28,9 @@ h3 {
 .navbar ul {
   display: flex;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
+  width: 13vw;
 }
 
 .navbar ul li a {
