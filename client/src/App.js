@@ -1,6 +1,7 @@
 import { BrowserRouter as Route, Navigate, Outlet}
     from 'react-router-dom';
 import './App.css';
+import './pages/SignUpLogin.css';
 import { useState } from 'react';
 import CardContainer from './components/CardContainer';
 import Navbar from './components/Navbar';
@@ -9,6 +10,7 @@ import Profile from './pages/Profile';
 import Featured from './pages/Featured';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+
 
 function App() {
 

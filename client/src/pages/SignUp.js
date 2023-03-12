@@ -1,11 +1,9 @@
 import React from 'react'
 
-import './SignUpLogin.css';
-
 function SignUp() {
   return (
     <div className='loginSignUpContainer'>
-      <div className='loginSignUpTitle'>Sign Up</div>
+      <h3 className='loginSignUpTitle'>Sign Up</h3>
       <input className='usernameInput' placeholder='Username'></input>
       <input className='emailInput' placeholder='Email'></input>
       <input className='passwordInput' placeholder='Password'></input>
