@@ -23,5 +23,8 @@
   "homepage": "https://github.com/takubmf/mana-forge#readme",
   "devDependencies": {
     "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
